@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elmacano920.github.io/Catalogo-web/sitemap.xml
