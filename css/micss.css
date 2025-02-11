@@ -1,0 +1,173 @@
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 50px;
+    background-color: #1a2506cc;
+}
+
+.header img {
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.header h1 {
+    color: #ffffff;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.navbar-custom {
+    background-color: #111211;
+}
+
+/* Cambiar el color de las letras del navbar */
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #4c00ff;
+}
+
+/* Estilos del carrusel */
+.carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    height: 400px; /* Ajusta la altura para que se vean las imágenes */
+    position: relative;
+}
+
+.carousel input {
+    color-scheme:#123456 ;
+    display:none;
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mostrar la imagen seleccionada */
+#img1:checked ~ .carousel-inner .slide:nth-of-type(1),
+#img2:checked ~ .carousel-inner .slide:nth-of-type(2),
+#img3:checked ~ .carousel-inner .slide:nth-of-type(3) {
+    opacity: 1;
+}
+
+.carousel-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.carousel-nav label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.carousel-nav label:hover {
+    background: #ccc;
+}
+
+#img1:checked ~ .carousel-nav label:nth-of-type(1),
+#img2:checked ~ .carousel-nav label:nth-of-type(2),
+#img3:checked ~ .carousel-nav label:nth-of-type(3) {
+    background: #333;
+}
+.modal-open {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-toggle {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Mostrar la modal cuando el checkbox está marcado */
+.modal-toggle:checked + .modal {
+    display: block;
+}
+
+.product-image {
+    width:90px;
+    height:80px;
+}
+.table-header {
+    background-color: #0d6efd;
+    color: white;
+}
+.Maquina-image {
+    width:240px;
+    height:240px;
+}
