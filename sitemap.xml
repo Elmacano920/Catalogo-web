@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://elmacano920.github.io/Catalogo-web/</loc>
+         <lastmod>2025-02-11</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://elmacano920.github.io/Catalogo-web/camas.html</loc>
+        <lastmod>2025-02-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://elmacano920.github.io/Catalogo-web/diseno-ayudas.html</loc>
+        <lastmod>2025-02-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://elmacano920.github.io/Catalogo-web/Diseno-ortopedicos.html</loc>
+        <lastmod>2025-02-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://elmacano920.github.io/Catalogo-web/muletas.html</loc>
+        <lastmod>2025-02-11</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://elmacano920.github.io/Catalogo-web/sector-industrial.html</loc>
+        <lastmod>2025-02-11</lastmod>
         <priority>0.8</priority>
     </url>
 </urlset>
